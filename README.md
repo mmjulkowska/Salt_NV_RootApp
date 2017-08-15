@@ -1,6 +1,17 @@
 # Salt_NV_RootApp
 This Application was build to allow exploration of the natural variation in Root System Architecture.
 
+The App can be either accessed here or run locally from your device.
+
+To do this please open R and type in the following command:
+library(shiny)
+shiny::runGitHub("mmjulkowska/Salt_NV_RootApp", "mmjulkowska")
+
+The required libraries to be installed are:
+shiny, ggplot2, car, multcomp, RColorBrewer, doBy, plotrix, car, gplots, colorRamps, plotly
+
+The code underlying the App is freely available at the github for use and reproduction or tweaking to your own results.
+
 How to use the App:
 1. In order to examine which RSA traits we scored, please have a look at the first tab, where we describe our experimental set-up and give a detailed description of all RSA traits collected
 
