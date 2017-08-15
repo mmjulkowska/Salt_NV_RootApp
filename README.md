@@ -32,7 +32,7 @@ The code underlying the App is freely available at the [github](https://github.c
 To compare the RSA phenotypes of individual accessions between different conditions studied in our study (0, 75 or 125 mM NaCl), please have a look at the second tab - you can select the accession from the menu either by clicking on one, or starting to type its name.
 You can change the phenotype in the side panel. The histogram below the graph is showing the natural variation observed in the entire HapMap population.
 
-### 2. Compare the RSA phenotypes for significant differences between up to 8 accessions
+### 2. Compare the RSA phenotypes for significant differences between 8 accessions
 
 ![rsa_tab3](https://user-images.githubusercontent.com/14832460/29319371-7dc1174e-81dc-11e7-87ac-a856629d5491.png)
 
