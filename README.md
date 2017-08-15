@@ -8,15 +8,20 @@ The manuscript is currently undergoing a review process. The App was build to al
 The App can be either accessed [here](http://genseq-h0.science.uva.nl/shiny/Salt_NV_Root/) or run locally from your device.
 
 To do this please open R and type in the following command:
-
+''''
 'library(shiny)'
-'shiny::runGitHub("mmjulkowska/Salt_NV_RootApp", "mmjulkowska")'
 
+'shiny::runGitHub("mmjulkowska/Salt_NV_RootApp", "mmjulkowska")'
+'''''
 The required libraries to be installed are:
 
 shiny, ggplot2, car, multcomp, RColorBrewer, doBy, plotrix, car, gplots, colorRamps, plotly
 
-You can do this by typing 'install.packages("shiny")' in your R command window.
+You can do this by typing 
+''''
+'install.packages("shiny")' 
+''''
+in your R command window.
 
 The code underlying the App is freely available at the [github](https://github.com/mmjulkowska/Salt_NV_RootApp) for use and reproduction or tweaking to your own results.
 
@@ -31,7 +36,7 @@ You can change the phenotype in the side panel. The histogram below the graph is
 
 ###2. Compare the RSA phenotypes for significant differences between up to 8 accessions
 
-![alt text](https://github.com/mmjulkowska/Salt_NV_RootApp/RSA_Tab3.pdf)
+![alt text](https://github.com/mmjulkowska/Salt_NV_RootApp/RSA_Tab3.pdf, "RSA_Tab3.pdf")
 
 To compare the phenotypes of (up to) 8 different accessions, please select the accessions in Tab 3. If you wish to select less than 8 accessions, just repeat the name of some accessions in the individual input boxes.
 
