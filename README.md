@@ -1,5 +1,3 @@
-
-
 ## Salt_NV_RootApp
 
 This Application was build as a supplement to the paper __"Genetic components of root architecture remodeling in response to salt"__
@@ -10,15 +8,29 @@ The manuscript is currently undergoing a review process. The App was build to al
 The App can be either accessed [here](http://genseq-h0.science.uva.nl/shiny/Salt_NV_Root/) or run locally from your device.
 
 To do this please open R and type in the following command:
-library(shiny)
-shiny::runGitHub("mmjulkowska/Salt_NV_RootApp", "mmjulkowska")
+
+'library(shiny)'
+'shiny::runGitHub("mmjulkowska/Salt_NV_RootApp", "mmjulkowska")'
 
 The required libraries to be installed are:
+
 shiny, ggplot2, car, multcomp, RColorBrewer, doBy, plotrix, car, gplots, colorRamps, plotly
 
-The code underlying the App is freely available at the github for use and reproduction or tweaking to your own results.
+You can do this by typing 'install.packages("shiny")' in your R command window.
 
-How to use the App:
+The code underlying the App is freely available at the [github](https://github.com/mmjulkowska/Salt_NV_RootApp) for use and reproduction or tweaking to your own results.
+
+## What can you do with the App:
+
+###1. Examine the phenotypes of individual accessions. 
+
+###2. Compare the RSA phenotypes for significant differences between up to 8 accessions
+
+###3. Examine the correlation between individual RSA traits at different conditions
+
+###4. Cluster the accessions based on the three traits of your interest. 
+
+
 1. In order to examine which RSA traits we scored, please have a look at the first tab, where we describe our experimental set-up and give a detailed description of all RSA traits collected
 
 2. To compare the RSA phenotypes of individual accessions between different conditions studied in our study (0, 75 or 125 mM NaCl), please have a look at the second tab - you can select the accession from the menu either by clicking on one, or starting to type its name.
