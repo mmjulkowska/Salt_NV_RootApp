@@ -21,12 +21,13 @@ The code underlying the App is freely available at the [github](https://github.c
 
 ## What can you do with the App:
 
-### 1. Examine the phenotypes of individual accessions. 
+### 1. Examine how salinity alters the phenotypes of individual accessions. 
+
+To compare the RSA phenotypes of individual accessions between different conditions studied in our study (0, 75 or 125 mM NaCl), the user can select the accession from the menu either by clicking on one, or starting to type its coloquial name.
 
 ![alt text](https://user-images.githubusercontent.com/14832460/29319232-ef6c5a8a-81db-11e7-9334-fc2b04c43aba.png)
 
-To compare the RSA phenotypes of individual accessions between different conditions studied in our study (0, 75 or 125 mM NaCl), please have a look at the second tab - you can select the accession from the menu either by clicking on one, or starting to type its name.
-You can change the phenotype in the side panel. The histogram below the graph is showing the natural variation observed in the entire HapMap population.
+The user can change the phenotype in the side panel. The histogram below the graph is showing the natural variation observed in the entire HapMap population examined in our study.
 
 ### 2. Compare the RSA phenotypes for significant differences between 8 accessions
 
