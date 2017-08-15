@@ -1,5 +1,13 @@
-# Salt_NV_RootApp
-This Application was build to allow exploration of the natural variation in Root System Architecture.
+name: Salt_NV_RootApp
+
+avatar: https://i1.rgstatic.net/ii/profile.image/AS%3A324628264751104%401454408817443_l/Magdalena_Julkowska.png
+
+## Salt_NV_RootApp
+
+This Application was build as a supplement to the paper "Genetic components of root architecture remodeling in response to salt"
+by Magdalena M. Julkowska Iko Koevoets, Selena Mol, Huub Hoefsloot, Richard Feron, Mark A. Tester, Joost J.B. Keurentjes, Arthur Korte, Michel A. Haring, Gert-Jan de Boer, Christa Testerink.
+
+that is currently undergoing a review process. The App was build to allow interactive exploration of the natural variation in Root System Architecture of Arabidopsis thaliana.
 
 The App can be either accessed here or run locally from your device.
 
