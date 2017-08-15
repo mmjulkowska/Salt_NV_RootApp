@@ -8,16 +8,13 @@ The manuscript is currently undergoing a review process. The App was build to al
 The App can be either accessed [here](http://genseq-h0.science.uva.nl/shiny/Salt_NV_Root/) or run locally from your device.
 
 To do this please open R and type in the following command:
-`
-library(shiny)
-
-shiny::runGitHub("mmjulkowska/Salt_NV_RootApp", "mmjulkowska")
-`
+`library(shiny)`
+`shiny::runGitHub("mmjulkowska/Salt_NV_RootApp", "mmjulkowska")`
 The required libraries to be installed are:
 
 shiny, ggplot2, car, multcomp, RColorBrewer, doBy, plotrix, car, gplots, colorRamps, plotly
 
-You can do this by typing 
+You install the packages by typing 
 `install.packages("shiny")`
 in your R command window.
 
