@@ -5,9 +5,7 @@ by _Magdalena M. Julkowska Iko Koevoets, Selena Mol, Huub Hoefsloot, Richard Fer
 
 The manuscript is currently undergoing a review process. The App was build to allow interactive exploration of the natural variation in Root System Architecture of Arabidopsis thaliana.
 
-The App can be either accessed [here](http://genseq-h0.science.uva.nl/shiny/Salt_NV_Root/) or run locally from your device.
-
-To do this please open R and type in the following command:
+The App can be either accessed [here](http://genseq-h0.science.uva.nl/shiny/Salt_NV_Root/) or run locally from your device by typing the following command in your R window:
 
 `library(shiny)`
 
@@ -15,11 +13,9 @@ To do this please open R and type in the following command:
 
 The required libraries to be installed are:
 
-shiny, ggplot2, car, multcomp, RColorBrewer, doBy, plotrix, car, gplots, colorRamps, plotly
+`shiny, ggplot2, car, multcomp, RColorBrewer, doBy, plotrix, car, gplots, colorRamps, plotly`
 
-You install the packages by typing 
-`install.packages("shiny")`
-in your R command window.
+You can install the packages by typing `install.packages("shiny")` in your R command window.
 
 The code underlying the App is freely available at the [github](https://github.com/mmjulkowska/Salt_NV_RootApp) for use and reproduction or tweaking to your own results.
 
@@ -34,23 +30,23 @@ You can change the phenotype in the side panel. The histogram below the graph is
 
 ### 2. Compare the RSA phenotypes for significant differences between 8 accessions
 
+To compare the phenotypes of (up to) 8 different accessions, please select the accessions in the side panel. If you wish to select less than 8 accessions, just repeat the name of some accessions in the individual boxes.
+
 ![rsa_tab3](https://user-images.githubusercontent.com/14832460/29319371-7dc1174e-81dc-11e7-87ac-a856629d5491.png)
 
-To compare the phenotypes of (up to) 8 different accessions, please select the accessions in Tab 3. If you wish to select less than 8 accessions, just repeat the name of some accessions in the individual input boxes.
-
-The letters above the graph represent the Tuckey pair-wise test with p-treshold value of 0.05.
+The letters above the graph represent the significantly different groups as per Tuckey pair-wise test with p-value of 0.05.
 
 ### 3. Examine the correlation between individual RSA traits at different conditions
 
+To examine the correlations between the individual RSA traits in control or salt stress conditions, you can pick a phenotype on the side panel and examine the distribution of the accessions in the scatter plot. You can identify individual accessions by putting your coursor over the dot, revealing the accession name and its coordinates.
+
 ![rsa_tab4](https://user-images.githubusercontent.com/14832460/29319382-85430ef0-81dc-11e7-8ee0-7f5204853c86.png)
 
-To examine the correlations between the individual RSA traits in control or salt stress conditions, you can pick a phenotype on the side panel and examine the distribution of the accessions in the scatter plot. You can identify individual accessions by putting your coursor over the dot, revealing the accession name and its coordinates. 
-
-The correlations were performed using Pearson correlation method.
+ The correlations were performed using Pearson correlation method.
 
 ### 4. Cluster the accessions based on the three traits of your interest. 
 
-In our paper we performed cluster analysis on three traits that we thought to be most interesting. However, we do not exclude the possibility that other scientists might have a different opinion on importance of our traits - whether you want to examine RSA only under control conditions, or focus only on the root zonation. Therefore, we developed the feature allowing the user to perform their own clustering.
+In our paper we performed cluster analysis on three traits that we thought to be most interesting. However, we do not exclude the possibility that other scientists might have a different opinion on importance of the RSA traits - either driven by their interest in RSA development exclusively under control conditions, or RSA phenotypes related to root zonation. Therefore, we developed the feature allowing users to perform their own clustering analysis.
 
 ![rsa_tab5a](https://user-images.githubusercontent.com/14832460/29319384-8544cbd2-81dc-11e7-9efb-778f466bdb81.png)
 
