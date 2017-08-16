@@ -61,4 +61,4 @@ The cluster validation can be performed in __Step 3__, where the individual acce
 
 The file containing the data on which accessions belong to which cluster can be downloaded from __Step 4__ tab. 
 
-## <span style = color:pink> Happy data exploration! </span>
+## Happy data exploration!
