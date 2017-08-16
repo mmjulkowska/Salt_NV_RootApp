@@ -11,17 +11,11 @@ The App can be either accessed [here](http://genseq-h0.science.uva.nl/shiny/Salt
 
 `shiny::runGitHub("mmjulkowska/Salt_NV_RootApp", "mmjulkowska")`
 
-The required libraries to be installed are:
-
-`shiny, ggplot2, car, multcomp, RColorBrewer, doBy, plotrix, car, gplots, colorRamps, plotly`
-
-You can install the packages by typing `install.packages("shiny")` in your R command window.
-
 The code underlying the App is freely available at the [github](https://github.com/mmjulkowska/Salt_NV_RootApp) for use and reproduction or tweaking to your own results.
 
 ## What can you do with the App:
 
-### 1. Examine how salinity alters the phenotypes of individual accessions. 
+### 1. Examine how salinity alters the phenotypes of individual accessions 
 
 To compare the RSA phenotypes of individual accessions between different conditions studied in our study (0, 75 or 125 mM NaCl), the user can select the accession from the menu either by clicking on one, or starting to type its coloquial name.
 
@@ -45,7 +39,7 @@ To examine the correlations between the individual RSA traits in control or salt
 
  The correlations were performed using Pearson correlation method.
 
-### 4. Cluster the accessions based on the three traits of your interest. 
+### 4. Cluster the accessions based on the three traits of your interest 
 
 In our paper we performed cluster analysis on three traits that we thought to be most interesting. However, we do not exclude the possibility that other scientists might have a different opinion on importance of the RSA traits - either driven by their interest in RSA development exclusively under control conditions, or RSA phenotypes related to root zonation. Therefore, we developed the feature allowing users to perform their own clustering analysis.
 
@@ -67,4 +61,4 @@ The cluster validation can be performed in __Step 3__, where the individual acce
 
 The file containing the data on which accessions belong to which cluster can be downloaded from __Step 4__ tab. 
 
-Happy data exploration!
+## <span style = color:pink> Happy data exploration! </span>
