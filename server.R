@@ -171,9 +171,10 @@ pval[1]
 # Cluster tree of ALL accessions based on three selected traits
 output$ClusterTree <- renderPlot({
 	# make a temporary subset based on Clust1, Clust2 and Clust3 (les traits)
-	clust_temp <- RSAavg_all[,c("Genotype", input$Clust1, input$Clust2, input$Clust3)]
-	clust_temp <- na.omit(clust_temp)
-	RSA_matrix <- clust_temp[,2:4]
+  clust_lista <-input$Clust1
+  clust_temp <- RSAavg_all[,c("Genotype", clust_lista)]
+  clust_temp <- na.omit(clust_temp)
+  RSA_matrix <- clust_temp[,2:ncol(clust_temp)]
 	row.names(RSA_matrix) <- clust_temp$Genotype
 	RSA_matrix = as.matrix(RSA_matrix)
 	RSA_t_matrix = t(RSA_matrix)
@@ -186,9 +187,10 @@ output$ClusterTree <- renderPlot({
 # 
 
 output$HotHeatMap <- renderPlot({
-	clust_temp <- RSAavg_all[,c("Genotype", input$Clust1, input$Clust2, input$Clust3)]
+  clust_lista <-input$Clust1
+	clust_temp <- RSAavg_all[,c("Genotype", clust_lista)]
 	clust_temp <- na.omit(clust_temp)
-	RSA_matrix <- clust_temp[,2:4]
+	RSA_matrix <- clust_temp[,2:ncol(clust_temp)]
 	row.names(RSA_matrix) <- clust_temp$Genotype
 	RSA_matrix = as.matrix(RSA_matrix)
 	RSA_t_matrix = t(RSA_matrix)
@@ -199,9 +201,10 @@ output$HotHeatMap <- renderPlot({
 })
 
 output$HotANOVA <- renderPlot({
-	clust_temp <- RSAavg_all[,c("Genotype", input$Clust1, input$Clust2, input$Clust3)]
-	clust_temp <- na.omit(clust_temp)
-	RSA_matrix <- clust_temp[,2:4]
+  clust_lista <-input$Clust1
+  clust_temp <- RSAavg_all[,c("Genotype", clust_lista)]	
+  clust_temp <- na.omit(clust_temp)
+  RSA_matrix <- clust_temp[,2:ncol(clust_temp)]
 	row.names(RSA_matrix) <- clust_temp$Genotype
 	RSA_matrix = as.matrix(RSA_matrix)
 	RSA_t_matrix = t(RSA_matrix)
@@ -231,10 +234,11 @@ amod <- aov(phenotype ~ cluster, data = to_test)
 })
 
 CLU1 <- function(){
-	clust_temp <- RSAavg_all[,c("Genotype", input$Clust1, input$Clust2, input$Clust3)]
-	clust_temp <- na.omit(clust_temp)
-	RSA_matrix <- clust_temp[,2:4]
-	row.names(RSA_matrix) <- clust_temp$Genotype
+  clust_lista <-input$Clust1
+  clust_temp <- RSAavg_all[,c("Genotype", clust_lista)]	
+  clust_temp <- na.omit(clust_temp)
+  RSA_matrix <- clust_temp[,2:ncol(clust_temp)]	
+  row.names(RSA_matrix) <- clust_temp$Genotype
 	RSA_matrix = as.matrix(RSA_matrix)
 	RSA_t_matrix = t(RSA_matrix)
 	RSA_t_cor = cor(RSA_t_matrix,method=c("pearson"))
@@ -255,7 +259,7 @@ new
 
 output$dwnldClust <- downloadHandler(
 filename=function(){
-	paste("Accession clustering based on ",input$Clust1, ", ",input$Clust2," and ",input$Clust3,".csv", sep="")},
+	paste("Accession clustering.csv", sep="")},
 content <- function(file){
 	write.csv(CLU1(), file)}
 	)
