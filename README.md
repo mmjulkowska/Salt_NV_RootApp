@@ -41,9 +41,11 @@ To examine the correlations between the individual RSA traits in control or salt
 
 ### 4. Cluster the accessions based on the three traits of your interest 
 
-In our paper we performed cluster analysis on three traits that we thought to be most interesting. However, we do not exclude the possibility that other scientists might have a different opinion on importance of the RSA traits - either driven by their interest in RSA development exclusively under control conditions, or RSA phenotypes related to root zonation. Therefore, we developed the feature allowing users to perform their own clustering analysis.
+In our paper we performed cluster analysis on three traits that we thought to be most interesting. However, we do not exclude the possibility that other scientists might have a different opinion on importance of the RSA traits - either driven by their interest in RSA development exclusively under control conditions, or RSA phenotypes related to root zonation. 
 
-![rsa_tab5a](https://user-images.githubusercontent.com/14832460/29319384-8544cbd2-81dc-11e7-9efb-778f466bdb81.png)
+Therefore, we developed the feature allowing users to perform their own clustering analysis on the unlimited number of traits.
+
+![rsa_tab5a](https://user-images.githubusercontent.com/14832460/30249288-b8361112-9641-11e7-9f9b-cf71ae22a8db.png)
 
 In __Step 1__ the user can chose up to three phenotypes to perform the clustering. 
 
