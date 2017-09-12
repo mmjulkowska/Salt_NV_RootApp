@@ -5,7 +5,7 @@ by _Magdalena M. Julkowska Iko Koevoets, Selena Mol, Huub Hoefsloot, Richard Fer
 
 The manuscript is currently undergoing a review process. The App was build to allow interactive exploration of the natural variation in Root System Architecture of Arabidopsis thaliana.
 
-The App can be either accessed [here](http://genseq-h0.science.uva.nl/shiny/Salt_NV_Root/) or run locally from your device by typing the following command in your R window:
+The App can be either accessed [here](http://genseq-h0.science.uva.nl/shiny/App/Salt_NV_Root/) or run locally from your device by typing the following command in your R window:
 
 `library(shiny)`
 
