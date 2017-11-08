@@ -6,8 +6,8 @@ sidebarPanel(
 fluidRow(
 h2("About the App"),
 helpText("This Application was build to allow further exploration of the natural variation in Root System Architecture. The accompanying paper:",br(), br(), 
-h3(a("Genetic components of root architecture remodeling in response to salt", href = "http://www.plantcell.org/content/early/2017/11/07/tpc.16.00680"), 
-h5("by Magdalena M. Julkowska Iko Koevoets, Selena Mol, Huub Hoefsloot, Richard Feron, Mark A. Tester, Joost J.B. Keurentjes, Arthur Korte, Michel A. Haring, Gert-Jan de Boer, Christa Testerink"), br(), 
+a("Genetic components of root architecture remodeling in response to salt", href = "http://www.plantcell.org/content/early/2017/11/07/tpc.16.00680"), 
+"by Magdalena M. Julkowska Iko Koevoets, Selena Mol, Huub Hoefsloot, Richard Feron, Mark A. Tester, Joost J.B. Keurentjes, Arthur Korte, Michel A. Haring, Gert-Jan de Boer, Christa Testerink"), br(), 
 "is currently re-submitted for publication", br(), br(),
 "In this study we explore natural variation in RSA development under control and salt stress conditions by screening 347 Arabidopsis accessions of the HapMap population, and explore the association between the multi-trait phenotypes of root architecture and the genotype by using Genome Wide Association", br(),br(),br(),br(),
 "App was designed by Magdalena Julkowska, with Shiny App package", br(),br(),
