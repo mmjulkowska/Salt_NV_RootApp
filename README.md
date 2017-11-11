@@ -1,6 +1,6 @@
 ## Salt_NV_RootApp
 
-This Application was build as a supplement to the paper ["Genetic components of root architecture remodeling in response to salt"](http://www.plantcell.org/content/early/2017/11/07/tpc.16.00680) by _Magdalena M. Julkowska Iko Koevoets, Selena Mol, Huub Hoefsloot, Richard Feron, Mark A. Tester, Joost J.B. Keurentjes, Arthur Korte, Michel A. Haring, Gert-Jan de Boer, Christa Testerink._
+This Application was build as a supplement to the paper ["Genetic components of root architecture remodeling in response to salt"](http://www.plantcell.org/content/early/2017/11/07/tpc.16.00680) by _Magdalena M. Julkowska Iko Koevoets, Selena Mol, Huub Hoefsloot, Richard Feron, Mark A. Tester, Joost J.B. Keurentjes, Arthur Korte, Michel A. Haring, Gert-Jan de Boer, Christa Testerink._ Published in [Plant cell, DOI: https://doi.org/10.1105/tpc.16.00680](http://www.plantcell.org/content/early/2017/11/07/tpc.16.00680) 
 
 The manuscript is currently undergoing a review process. The App was build to allow interactive exploration of the natural variation in Root System Architecture of Arabidopsis thaliana.
 
