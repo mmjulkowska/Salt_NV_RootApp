@@ -4,7 +4,7 @@ This Application was build as a supplement to the paper ["Genetic components of 
 
 The App was build to allow interactive exploration of the natural variation in Root System Architecture of Arabidopsis thaliana.
 
-The App can be either accessed [here](http://genseq-h0.science.uva.nl/shiny/App/Salt_NV_Root/) or run locally from your device by typing the following command in your R window:
+The App can be either accessed [here](https://mmjulkowska.shinyapps.io/Salt_NV_RootApp/) or run locally from your device by typing the following command in your R window:
 
 `library(shiny)`
 
