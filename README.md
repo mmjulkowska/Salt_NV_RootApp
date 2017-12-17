@@ -40,7 +40,7 @@ To examine the correlations between the individual RSA traits in control or salt
 
 ### 4. Cluster the accessions based on the three traits of your interest 
 
-In our paper we performed cluster analysis on three traits that we thought to be most interesting. However, we do not exclude the possibility that other scientists might have a different opinion on importance of the RSA traits - either driven by their interest in RSA development exclusively under control conditions, or RSA phenotypes related to root zonation. 
+The individual accessions will cluster into different groups depending on the traits that are used. We have our favourite traits, but we do not exclude the possibility that other scientists might have a different opinion on importance of the RSA traits - either driven by their interest in RSA development exclusively under control conditions, or RSA phenotypes related to root zonation. 
 
 Therefore, we developed the feature allowing users to perform their own clustering analysis on the unlimited number of traits.
 
